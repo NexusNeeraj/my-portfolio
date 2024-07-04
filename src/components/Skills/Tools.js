@@ -2,7 +2,7 @@ import React from "react";
 import { SiWindows11, SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
-export default function Tools() {
+const Tools = () =>{
   const tools = [<SiWindows11 />, <VscVscode />, <SiPostman />];
   return (
     <section id="tools" className="px-10 w-full my-40 max-w-5xl mx-auto">
@@ -28,3 +28,5 @@ export default function Tools() {
     </section>
   );
 }
+
+export default Tools;

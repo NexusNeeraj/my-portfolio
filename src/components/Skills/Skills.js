@@ -14,7 +14,7 @@ import {
 } from "react-icons/si";
 
 
-export default function Skills() {
+const Skills = () =>{
   const skills = [
     <CgCPlusPlus />,
     <DiJavascript1 />,
@@ -50,3 +50,5 @@ export default function Skills() {
     </section>
   );
 }
+
+export default Skills;
